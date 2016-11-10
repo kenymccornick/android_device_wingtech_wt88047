@@ -23,6 +23,7 @@ include $(DEVICE_PATH)/board/*.mk
 # TWRP
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
+TW_CUSTOM_THEME := $(DEVICE_PATH)/twrp-theme/material-tesla
 TW_TARGET_USES_QCOM_BSP := false
 TW_NEW_ION_HEAP := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
